@@ -1,0 +1,93 @@
+{
+  "koneksa-gitops": {
+    "title": "Koneksa GitOps deployment workflows",
+    "company": "Koneksa",
+    "summary": "Built and improved GitOps CI/CD workflows using Argo CD and GitHub Actions for applications running on Kubernetes.",
+    "problem": "Deployment workflows needed to be more consistent, auditable, and less dependent on manual intervention.",
+    "contribution": [
+      "Worked on Argo CD and GitHub Actions deployment workflows.",
+      "Added or improved validation and deployment safeguards.",
+      "Used Git as the desired-state source for deployment configuration.",
+      "Focused on reusable patterns rather than one-off deployment fixes."
+    ],
+    "technologies": [
+      "AWS",
+      "Kubernetes",
+      "Argo CD",
+      "GitHub Actions",
+      "Terraform"
+    ],
+    "interview_angles": [
+      "standardization and self-service",
+      "deployment safety",
+      "developer enablement",
+      "reusable technical patterns",
+      "tradeoffs between guardrails and team autonomy"
+    ],
+    "guardrails": [
+      "Do not invent numeric values.",
+      "Do not claim sole ownership of the entire deployment platform.",
+      "Ask for more detail if a question requires an implementation fact not included here."
+    ]
+  },
+  "rapid7-eks-migration": {
+    "title": "Rapid7 CI/CD migration to EKS",
+    "company": "Rapid7",
+    "summary": "Migrated more than 20 CI/CD systems to cloud-based infrastructure running on Amazon EKS.",
+    "problem": "Existing CI/CD workloads needed a more scalable and resilient infrastructure pattern.",
+    "contribution": [
+      "Helped migrate more than 20 CI/CD systems.",
+      "Worked with AWS, EKS, Terraform, Jenkins, Spinnaker, and related platform tooling.",
+      "Supported multiple product engineering teams consuming the platform."
+    ],
+    "technologies": [
+      "AWS",
+      "EKS",
+      "Terraform",
+      "Jenkins",
+      "Spinnaker"
+    ],
+    "interview_angles": [
+      "migration planning",
+      "scaling one pattern across many workloads",
+      "internal customer enablement",
+      "rollout risk",
+      "standardization versus exceptions"
+    ],
+    "guardrails": [
+      "Do not invent the exact migration timeline.",
+      "Do not invent percentage reliability improvements.",
+      "Treat product teams as internal users, not external customers."
+    ]
+  },
+  "legit-fish-client-integration": {
+    "title": "Legit Fish client onboarding and data integration",
+    "company": "Legit Fish",
+    "summary": "Led technical onboarding and data integration for new clients, aligning system capabilities with business and regulatory requirements.",
+    "problem": "New clients needed their data and workflows integrated into the platform while meeting business and regulatory constraints.",
+    "contribution": [
+      "Led technical onboarding and data integration for new clients.",
+      "Worked on ETL pipelines in a Ruby on Rails backend.",
+      "Debugged APIs and scheduled jobs.",
+      "Helped translate client requirements into workable system behavior."
+    ],
+    "technologies": [
+      "REST APIs",
+      "ETL",
+      "Ruby on Rails",
+      "data pipelines"
+    ],
+    "interview_angles": [
+      "customer discovery",
+      "technical integration",
+      "requirements translation",
+      "handling system constraints",
+      "client communication"
+    ],
+    "guardrails": [
+      "Do not invent client names.",
+      "Do not invent exact data formats or integration protocols unless supplied during the conversation.",
+      "Ask for specifics when needed."
+    ]
+  }
+}
