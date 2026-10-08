@@ -234,6 +234,17 @@ https://example.ngrok-free.app/projects/{project_id}
 
 This part all takes place in the ElevenLabs dashboard
 
+# Part 5: Test integrationg by prompting the agent with a topic it would need more context on
+
+Here is an example of how I prompted mine and how it successfully responded with added context:
+<img width="1593" height="834" alt="Screenshot 2026-10-08 at 2 54 02 PM" src="https://github.com/user-attachments/assets/ddbb3115-a683-49d7-ab2b-6dca6106f540" />
+
+
+
+If successfull you will see on the dashboard that the webhook successfully ran:
+<img width="1592" height="826" alt="Screenshot 2026-10-08 at 1 46 46 PM" src="https://github.com/user-attachments/assets/071d841b-f0c7-494f-9629-d0d0ec6d7fe7" />
+
+
 
 ---
 
