@@ -11,7 +11,8 @@ This repo has two small pieces of work that I wanted to add beyond the functiona
 1. a Python runner for starting an ElevenLabs conversation locally
 2. a tiny read-only API that the interview agent can call as a webhook tool to retrieve structured context about a project (especifically my past engineering projects)
 
-I intentionally kept this small. The goal was to better understand how building with ElevenLabs works.
+I intentionally kept this small. The goals was to better understand how building with ElevenLabs works and build something that would help me in my personal life.
+
 ---
 
 ## The Agents
@@ -42,8 +43,8 @@ I wanted my interview coach to ask me things like:
 - what could be standardized or automated
 - how I would explain the same project to different audiences (marketing, engineering, product, sales, customer, etc.)
 
-I wanted the Agent to be able to retrieve relevant context about my projects (kind of like how an interviewer would glance at my resume while interviewing me). Instead of uploading my resume to the prompt, I wanted to use this as an opportunity to learn how building upon an ElevenLabs agent looks like so instead I created a small webhook integration.
----
+I wanted the Agent to be able to retrieve relevant context about my projects (kind of like how an interviewer would glance at my resume while interviewing me.) Instead of uploading my resume to the prompt, I wanted to use this as an opportunity to learn how building upon an ElevenLabs agent looks like so instead I created a small webhook integration.
+
 
 # Webhook integration
 
